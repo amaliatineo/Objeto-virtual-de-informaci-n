@@ -1,40 +1,116 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Sitio OVI</title>
-    <link rel="stylesheet" href="CSS/Estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section,Aside, Article y Footer- Video</title>
 </head>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap');
+
+body{
+    background: white;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.nav{
+    width: 1000px;
+    margin: 30px auto;
+}
+
+.nav ul{
+    list-style: none;
+}
+.Menu > li{
+    position: relative;
+display: inline-block;
+background: #005883;
+}
+.Menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    color:white;
+    text-decoration: none;
+}
+
+.Menu li a:hover{
+    color: #434343;
+    transition: all .3s;
+}
+
+.submenu{
+    position: absolute;
+    background: #005883;
+    width: 120%;
+    display: none;
+}
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+.Menu li:hover .submenu{
+    display: block;
+}
+
+</style>
+<nav class="nav">
+    <ul class="Menu"> 
+
+        <li><a href="../Index.html"> <h3>Inicio</h3> </a></li>
+
+            <li><a href="#"> Lecturas </a>
+                <ul class="submenu">
+                    <li><a href="../paginas/Lectura 1.html"> ¿Qué es el HTML?</a></li>
+                    <li><a href="../paginas/Lectura 2.html"> Section</a></li>
+                    <li><a href="../paginas/Lectura 3.html">Aside</a></li>
+                    <li><a href="../paginas/Lectura 4.html"> Article</a></li>
+                    <li><a href="../paginas/Lectura 5.html"> Footer</a></li>
+                </ul>
+            </li>
+        
+            <li><a href="#"> Multimedia </a>
+                <ul class="submenu">
+                    <li><a href="../paginas/Video1.html"> Estructura de HTML </a></li> 
+                    <li><a href="../paginas/Video2.html"> Section,Aside, Article y Footer </a></li>
+                </ul>
+            </li>
+           
+        
+            <li><a href="#"> Actividades </a>
+                <ul class="submenu">
+                    <li><a href="../paginas/Actividad1.html">Actividad 1</a></li>
+                    <li><a href="../paginas/Actividad2.html">Actividad 2</a></li>
+                </ul>
+            </li>
+     
+             <li><a href="#"> Autores </a>
+                <ul class="submenu">
+                    <li><a href="../paginas/Contactos.html">Contacto</a></li>
+                </ul>
+            </li>
+    </ul> 
+</nav>
 <body>
-    <header>
-        <img src="IMG/logo.Horizontal unad.jpg" alt="Logo de la UNAD">
-        <H1> HTML5 </H1>
-    </header>
-
-    <nav> 
-        <a href="#"> Inicio |</a>
-        <a href="#"> actividades |</a>
-        <a href="#"> Autores </a>
-    </nav>
-    <section class="Contenedor">
-        <section class="Central">
-            <article>
-                <h3> Titulo del primer parrafo</h3>
-                <p>El contenido del tema </p>
-            </article>
-
-        </section>
-        <aside>
-            <h4>Este es el lateral </h4>
-            <p> Texto relacionado </p>
-
-        </aside>
-
-    </section>
-    <footer>
-        <p>Este es el pie de página</p>
-        <h6> By Grupo 43, abril de 2020</h6>
-    </footer>
+<style>
+    li a{
+        list-style: none;
+        text-decoration: none;
+    }
+</style>
+    <P> En este Video Te explicaremos aún más   </P>
+    <li><a href="https://www.youtube.com/watch?v=zpRlWZrLztc&feature=youtu.be">Section,Aside, Article y Footer</a>
+    </li>
+    
+    
 </body>
 </html>
