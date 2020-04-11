@@ -8,38 +8,49 @@ body{
 *{
     padding: 0px;
     margin: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
-header{
-    margin: auto;
-    width: 500px;
+
+.nav{
+    width: 1000px;
+    margin: 30px auto;
 }
-ul,ol {
+
+.nav ul{
     list-style: none;
 }
+.Menu > li{
+    position: relative;
+display: inline-block;
+background: #005883;
+}
+.Menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    color:white;
+    text-decoration: none;
+}
 
-.nav li a{
-    background:#005883;
+.Menu li a:hover{
+    color: #434343;
+    transition: all .3s;
+}
+
+.submenu{
+    position: absolute;
+    background: #005883;
+    width: 120%;
+    display: none;
+}
+.submenu li a{
+    display: block;
+    padding: 15px;
     color: white;
     text-decoration: none;
-    padding: 8px 10px;
-    display: block;
 }
-
-.nav li: :hover{
-    
-}
-
-.nav > li{
-    float: left;
-}
-
-.nav li ul {
-    display: none;
-    position: absolute;
-    min-width: 120px;
-}
-
-.nav li : hover > ul {
+.Menu li:hover .submenu{
     display: block;
 }
 
