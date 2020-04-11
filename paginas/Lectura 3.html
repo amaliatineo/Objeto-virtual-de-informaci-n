@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASIDE</title>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap');
+
+body{
+    background: white;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.nav{
+    width: 1000px;
+    margin: 30px auto;
+}
+
+.nav ul{
+    list-style: none;
+}
+.Menu > li{
+    position: relative;
+display: inline-block;
+background: #005883;
+}
+.Menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    color:white;
+    text-decoration: none;
+}
+
+.Menu li a:hover{
+    color: #434343;
+    transition: all .3s;
+}
+
+.submenu{
+    position: absolute;
+    background: #005883;
+    width: 120%;
+    display: none;
+}
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+.Menu li:hover .submenu{
+    display: block;
+}
+
+</style>
+<nav class="nav">
+    <ul class="Menu"> 
+
+        <li><a href="../Index.html"> <h3>Inicio</h3> </a></li>
+
+            <li><a href="#"> Lecturas </a>
+                <ul class="submenu">
+                    <li><a href="../paginas/Lectura 1.html"> ¿Qué es el HTML?</a></li>
+                    <li><a href="../paginas/Lectura 2.html"> Section</a></li>
+                    <li><a href="../paginas/Lectura 3.html">Aside</a></li>
+                    <li><a href="../paginas/Lectura 4.html"> Article</a></li>
+                    <li><a href="../paginas/Lectura 5.html"> Footer</a></li>
+                </ul>
+            </li>
+        
+            <li><a href="#"> Multimedia </a>
+                <ul class="submenu">
+                    <li><a href="#"> Estructura de HTML </a></li> 
+                    <li><a href="#"> Section,Aside, Article y Footer </a></li>
+                </ul>
+            </li>
+           
+        
+            <li><a href="#"> Actividades </a>
+                <ul class="submenu">
+                    <li><a href="">Actividad 1</a></li>
+                    <li><a href="">Actividad 2</a></li>
+                </ul>
+            </li>
+     
+             <li><a href="#"> Autores </a>
+                <ul class="submenu">
+                    <li><a href="">Contacto</a></li>
+                </ul>
+            </li>
+    </ul> 
+</nav>
+
+<body>
+    <img src="C:\Users\JOSUE\Documents\GitHub\Objeto-virtual-de-informaci-n\IMG\ASIDE.jpg" alt="ASIDE">
+    <h1> ASIDE</h1>
+    <P> Traducido al idioma español quiere decir: “Aparte”. Simboliza una sección de una página la cual consta del contenido que está indirectamente relacionado con lo fundamental del escrito. Generalmente se encuentran visualizadas como barras laterales o como inserciones, situadas al lado de la barra del contenido principal. Esta sección cumple un papel muy importante en código, debido a que son una ayuda de mejor investigación y navegación para el usuario, conteniendo resúmenes y varias entradas. En HTML5 se puede marcar este tipo de etiqueta con "aside".</P>
+    
+</body>
+</html>
