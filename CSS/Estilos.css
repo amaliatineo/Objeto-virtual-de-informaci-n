@@ -6,23 +6,40 @@ body{
 }
 
 *{
-    padding:0px;
-    margin: opx;
-    }
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    margin: auto;
+    width: 500px;
+}
+ul,ol {
+    list-style: none;
+}
 
-    header{
-        margin:auto;
-        width: 500px;
-   }
+.nav li a{
+    background:#005883;
+    color: white;
+    text-decoration: none;
+    padding: 8px 10px;
+    display: block;
+}
 
-   ul, ol {
-       list-style: none;
-   }
+.nav li: :hover{
+    
+}
 
-   .nav li a {
-       background:#005883;
-       color: white;
-       text-decoration: none;
-       padding: 10px 15px;
-       display: block;
-   }
+.nav > li{
+    float: left;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 120px;
+}
+
+.nav li : hover > ul {
+    display: block;
+}
+
