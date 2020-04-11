@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>Sitio OVI</title>
+        <link rel="stylesheet" href="CSS/Estilos.css">
+
+        <style>
+         
+            h1{
+                background:#005883;
+                color:white ;
+                display:inline-block; 
+                padding: 15px 20px;
+                width: 300px;
+                margin: 30px auto;
+                padding: 0px;
+                margin: 0px;
+            }
+        </style>
+        <style>
+            body{
+                background:rgb(0, 0, 37);
+                font-family: 'Libre Franklin', sans-serif;
+            }
+
+            *{
+                padding: 0px;
+                margin: 0px;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+
+            .nav{
+                width: 1000px;
+                margin: 30px auto;
+            }
+
+            .nav ul {
+                list-style: none;
+            }
+            .Menu > li {
+                position: relative;
+                display: inline-block;
+                background: #005883;
+            }
+            .Menu > li > a {
+                display: block;
+                padding: 8px 15px;
+                color:white;
+                text-decoration: none;
+            }
+
+            .Menu li a:hover{
+                color: #434343;
+                transition: all .3s;
+            }
+            .submenu{
+                position: absolute;
+                background: #005883;
+                width: 120%;
+                display: none;
+            }
+            .submenu li a{
+                display: block;
+                padding: 15px;
+                color: white;
+                text-decoration: none;
+            }
+            .Menu li:hover .submenu{
+                display: block;
+            }
+        </style>
+    </head>
+<body>
+    <header>
+        <img src="C:\Users\JOSUE\Documents\GitHub\Objeto-virtual-de-informaci-n\IMG\logo.Horizontal unad.png" alt="Logo de la UNAD">
+        <H1 > ¿Qué es el HTML5? </H1>
+    </header>
+
+    <nav class="nav">
+        <ul class="Menu"> 
+
+            <li><a href="../Index.html"> <h3>Inicio</h3> </a></li>
+
+                <li><a href="#"> Lecturas </a>
+                    <ul class="submenu">
+                        <li><a href="../paginas/Lectura1.html"> ¿Qué es el HTML?</a></li>
+                        <li><a href="../paginas/Lectura2.html"> Section</a></li>
+                        <li><a href="../paginas/Lectura3.html">Aside</a></li>
+                        <li><a href="../paginas/Lectura4.html"> Article</a></li>
+                        <li><a href="../paginas/Lectura5.html">Footer</a></li>
+                    </ul>
+                </li>
+            
+                <li><a href="#"> Multimedia </a>
+                    <ul class="submenu">
+                        <li><a href="#"> Estructura de HTML </a></li> 
+                        <li><a href="#"> Section,Aside, Article y Footer </a></li>
+                    </ul>
+                </li>
+               
+            
+                <li><a href="#"> Actividades </a>
+                    <ul class="submenu">
+                        <li><a href="">Actividad 1</a></li>
+                        <li><a href="">Actividad 2</a></li>
+                    </ul>
+                </li>
+         
+                 <li><a href="#"> Autores </a>
+                    <ul class="submenu">
+                        <li><a href="">Contacto</a></li>
+                    </ul>
+                </li>
+            </ul> 
+        </nav>
+        <style>
+            p{
+                background: rgb(114, 102, 102);
+                color: white;
+                width: 1000px;
+                margin: 30px auto;
+
+            }
+        </style>
+            <p>El HTML corresponde a las siglas en inglés de "HiperText Markup Lenguaje"
+                y se puede traducir al español como "Lenguaje de Marcas de Hipertexto",
+                este lenguaje se encuentra constituido por tres caractísticas básicas:
+                   >Estructura
+                   >Estilo
+                   >Funcionalidad
+
+               El HTML se utiliza un sistema de etiquetas para comunicarse con el navegador.
+                
+
+            </p>
+    </body>
+</html>
