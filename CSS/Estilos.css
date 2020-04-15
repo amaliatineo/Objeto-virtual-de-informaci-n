@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap');
 
 body{
-    background: khaki;
+    background: white;
     font-family: 'Libre Franklin', sans-serif;
 }
 
@@ -63,7 +63,7 @@ h1{
     text-align: center;
     color: black;
     line-height: ;
-    background:khaki;
+    background:white;
 }
 .imagen1{
     width: 1349px;
@@ -77,6 +77,6 @@ footer{
 
 
  header{
-      background: khaki;
+      background:white;
      }
     
