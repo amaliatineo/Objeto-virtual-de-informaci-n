@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap');
 
 body{
-    background: white;
+    background:white;
     font-family: 'Libre Franklin', sans-serif;
 }
 
@@ -11,6 +11,11 @@ body{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+.imagen1{
+    width: 1068px;
+    height: 150px;
 }
 
 .nav{
@@ -53,22 +58,15 @@ background: #005883;
 .Menu li:hover .submenu{
     display: block;
 }
-.contenedor {
-    background: white;
-    width: 50%;
-    max-width: 600px;
-    height: 500px;
-}
+
 h1{
     text-align: center;
     color: black;
     line-height: ;
     background:white;
 }
-.imagen1{
-    width: 1349px;
-    height: 150px;
-}
+   
+
 
 footer{
     background: #005883;
@@ -79,4 +77,13 @@ footer{
  header{
       background:white;
      }
+
     
+    .t2 {
+        color: black;
+        
+    }
+    .t1{
+        background:white;
+        color: black;
+    }
